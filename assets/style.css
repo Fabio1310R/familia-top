@@ -1,6 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;900&display=swap');
 
-
 body{
     width: 100%;
     height: 100vh;
@@ -261,7 +260,11 @@ footer div{
 }
 
 @media (max-width:900px){
-   
+    .geral,
+    footer,
+    .slider{
+        overflow-x: hidden;
+    }
     #menu{
         display: block;
         position: absolute;
@@ -401,12 +404,11 @@ footer div{
 }
 
 @media (max-width:400px){
-    body{
-        background-color: #07ff5e;
-    }
+  
     .slider{
         width: 360px;
         margin-left: 0;
+
     }
     .slide img{
         width: 360px;
@@ -416,7 +418,6 @@ footer div{
     }
     .produtos div{
         flex-direction: column;
-        background-color: aqua;
     }
 
     .itens div{
