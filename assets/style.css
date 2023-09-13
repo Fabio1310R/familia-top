@@ -19,7 +19,7 @@ body{
 }
 
 header .logo img{
-    width: 100px;
+    width: 130px;
 }
 
 #menu{
@@ -265,8 +265,9 @@ footer div{
     .slider,
     header,
     section{
-        overflow-x: hidden;
-        width: 100vw;
+        overflow: hidden;
+        width: 110vw;
+        justify-content: center;
     }
 
 
@@ -411,12 +412,12 @@ footer div{
 @media (max-width:400px){
   
     .slider{
-        width: 360px;
-        margin-left: 0;
-
+        width: 320px;
+        margin-left: 5px;
+        overflow-x: hidden;
     }
     .slide img{
-        width: 360px;
+        width: 320px;
     }
     .produtos{
         width: 100vw;
