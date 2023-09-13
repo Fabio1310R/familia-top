@@ -263,10 +263,13 @@ footer div{
     .geral,
     footer,
     .slider,
-    header{
+    header,
+    section{
         overflow-x: hidden;
-       
+        width: 100vw;
     }
+
+
     #menu{
         display: block;
         position: absolute;
