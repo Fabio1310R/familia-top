@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.cadastro{
+    max-width: 500px;
+    height: 500px;
+    margin: 40px auto;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.content h1{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.cadastro p{
+   text-align: center;
+   color: aliceblue;
+   margin: 13px 100px;
+   font-size: 13px;
+   font-family: 'Merienda', cursive;
+   text-transform: uppercase;
+   margin-bottom: 50px;
+}
+
+.cadastro input{
+    margin: 13px;
+    padding: 5px;
+}
+a{
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a input{
+    width: 100%;
+}
