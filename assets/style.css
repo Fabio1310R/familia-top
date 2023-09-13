@@ -262,8 +262,10 @@ footer div{
 @media (max-width:900px){
     .geral,
     footer,
-    .slider{
+    .slider,
+    header{
         overflow-x: hidden;
+        width: 100%;
     }
     #menu{
         display: block;
