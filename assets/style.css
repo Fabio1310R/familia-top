@@ -234,7 +234,7 @@ aside a{
     cursor: pointer;
 }
 
-@media (max-width:800px){
+@media (min-width:600px) and (max-width:900px){
     #menu{
         display: block;
         position: absolute;
@@ -250,7 +250,7 @@ aside a{
     }
 
     #nav.active #menu{
-        height: calc(45vh - 8vh);
+        height: calc(50vh - 8vh);
         overflow-x: hidden;
         display: block;
         visibility: visible;
@@ -308,6 +308,7 @@ aside a{
     
     .slider{
         width: 600px;
+        margin-left: 5vw;
     }
 
     .slides img{
@@ -318,9 +319,47 @@ aside a{
     .manual-nav{
         width: 600px;
     }
-    
-    
 
+    .geral{
+        flex-direction: column;
+    }
+
+    h2{
+        margin-left: 0;
+    }
+
+    .produtos div{
+        justify-content: start;
+        margin: 10px;
+    }
+
+    .itens{
+        margin-left: 0;
+    }
+
+    .geral aside{
+        height: 700px;
+        flex-wrap: wrap;
+        width: 100vw;
+        justify-content: space-between;
+       
+    }
+     
+    aside a{
+        display: none;
+    }
+
+}
+
+@media(max-width:599px){
+    .slider{
+        width: 400px;
+    }
+
+    .nav-auto,
+    .manual-nav{
+        width: 400px;
+    }
 }
 
 
