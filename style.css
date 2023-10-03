@@ -103,6 +103,7 @@ header a:hover {
 }
 
 .text-2 a{
+    display: flex;
     text-decoration: none;
     color: black;
     text-align: center;
