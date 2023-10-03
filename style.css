@@ -103,6 +103,7 @@ header a:hover {
 }
 
 .text-2 a{
+    text-decoration: none;
     color: black;
     text-align: center;
     align-items:center ;
@@ -170,7 +171,7 @@ header a:hover {
 
 .item a{
     color: black;
-    
+
 }
 
 .btn-p{
