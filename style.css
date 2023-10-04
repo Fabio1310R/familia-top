@@ -76,7 +76,7 @@ header a:hover {
     width: 200px;
 }
 
-#envio.active #evento .envio-img,
+#envio.active #evento > .envio-img,
 #envio:hover .envio-img{
     margin-left: 300%;
     transition: 1s ease-in-out;
