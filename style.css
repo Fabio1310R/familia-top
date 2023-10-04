@@ -327,5 +327,9 @@ header a:hover {
         box-sizing: content-box;
     }
 
+    .produtos{
+        margin: auto
+    }
+
 
 }
