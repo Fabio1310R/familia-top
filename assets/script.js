@@ -1,15 +1,10 @@
-let count = 1;
-document.getElementById('radio1').checked = true;
+const envio = document.getElementById('evento');
 
-setInterval( function(){
-     nextImage();
-}, 3000)
-
-function nextImage(){
-    count++;
-    if(count>4){
-        count = 1;
-    }
-
-    document.getElementById('radio'+count).checked = true;
+function toggleEnvio(event){
+    if(event.type === 'touchstart') event.preventDefault()
+    const envio = document.getElementById('envio');
+    envio.classList.toggle('active');
 }
+
+envio.addEventListener('click', toggleEnvio);
+envio.addEventListener('touchstart', toggleEnvio);
