@@ -147,7 +147,8 @@ header a:hover {
     background-color: transparent;
 }
 
-.container a{
+.categorias a,
+.produtos a{
     color: black;
 }
 .categorias ul{
