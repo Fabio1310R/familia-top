@@ -227,12 +227,12 @@ header a:hover {
     justify-content: center;
 }
 
-#footer{
+#info{
     display: flex;
     justify-content: center;
 }
 
-#footer div{
+#info div{
     display: flex;
     flex-direction: column;
     width: 200px;
@@ -241,29 +241,73 @@ header a:hover {
     margin: 0 5px;
 }
 
-#footer h2{
+#info h2{
     font-size: 20px;
     margin-bottom: 10px;
     height: 50px;
     text-align: center;
 }
 
-#footer p,
-#footer li{
+#info p,
+#info li{
     font-size: 16px;
     text-align: center;
     list-style: none;
 }
 
-#footer li a{
+#info li a{
     color: black;
 }
 
-#footer img{
+#info img{
     display: flex;
     margin-top: 0;
     max-width: 100px;
     margin: auto;
+}
+
+#footer{
+    height: 50px;
+    margin-top: 15px;
+    display: flex;
+    background-image: linear-gradient( 49deg, black, gray); 
+}
+
+#footer h2{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+}
+
+#footer div ul{
+    display: flex;
+    width: 200px;
+    margin: auto;
+}
+
+#footer li{
+    width: 100px;
+    list-style: none;
+}
+#footer div {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer p,
+#footer a{
+   font-size: 10px; 
+}
+
+
+#footer a{
+    color: #ffF;
+    text-decoration: underline;
 }
 
 @media(max-width:700px) {
@@ -372,14 +416,26 @@ header a:hover {
         margin: auto
     }
 
-    #footer{
+    #info{
         flex-direction: column;
         align-items: center;
     }
 
-    #footer div{
+    #info div{
         margin-top: 15px;
         width: 300px;
+    }
+
+    #footer{
+        height: auto;
+    }
+    #footer div{
+        width: 50vw;
+    }
+    
+
+    #footer ul{
+        flex-direction: column;
     }
 
 
