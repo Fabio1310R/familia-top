@@ -12,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
+    background-image: url('assets/images/fundo.png');
 }
 
 header {
@@ -103,6 +104,7 @@ header a:hover {
 }
 .text-1{
     font-size: 25px;
+    color: #ffF;
 }
 
 #envio .text-2,
@@ -116,17 +118,12 @@ header a:hover {
 #envio:hover .text-2 a{
     display: flex;
     text-decoration: none;
-    color: black;
+    color: #fff;
     text-align: center;
     align-items:center ;
     justify-content: center;
     transition: .4s ease-in-out;
     font-size: 20px;
-}
-
-
-.categorias{
-   margin: 0 40px;
 }
 
 .container{
@@ -136,7 +133,11 @@ header a:hover {
     margin: auto;
     justify-content: end;
     max-width: 950px;
+    justify-content: space-between;
 }
+.categorias{
+    margin: 0 40px;
+ }
 
 .container .categorias li{
     list-style: none;
@@ -149,7 +150,7 @@ header a:hover {
 
 .categorias a,
 .produtos a{
-    color: black;
+    color: #fff;
     text-decoration: none;
     font-size: 16px;
     width: 100%;
@@ -161,6 +162,10 @@ header a:hover {
     box-shadow: 0px 0px 6px 1px #00FF01;
 }
 
+.categorias h2{
+    color: #ffF;
+}
+
 
 .produtos{
     max-width: 700px;
@@ -169,8 +174,8 @@ header a:hover {
 }
 
 #acessorios,
-#case,
-#audio{
+#copos,
+#eletronicos{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -189,14 +194,24 @@ header a:hover {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid rgba(128, 128, 128, 0.342);
+    border: 1px solid #00ff0050;
     flex: 1;
     margin: 10px;
+    color: #e7e7e7;
 }
 
 .item .preco,
 .item .btn-p{
-    margin-top: 15px;
+    margin: 0;
+    text-align: center;
+}
+
+.item .title{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    text-align: center;
 }
 
 .item a{
@@ -214,7 +229,9 @@ header a:hover {
     background-color: transparent;
     max-width: 100px;
 } 
-
+.btn-p a{
+    color: #e7e7e7;
+}
 .item:hover .preco{
     display: none;
 }
@@ -227,18 +244,24 @@ header a:hover {
     justify-content: center;
 }
 
+
 #info{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    max-width: 950px;
+    margin: auto;
+    margin-top: 50px;
 }
 
 #info div{
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 300px;
     gap: 10px;
-    border:1px solid #00FF01;
     margin: 0 5px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #e7e7e7;
 }
 
 #info h2{
@@ -249,16 +272,19 @@ header a:hover {
 }
 
 #info p,
-#info li{
+#info li,
+#info h2{
     font-size: 16px;
     text-align: center;
     list-style: none;
+   
 }
 
-#info li a{
-    color: black;
+#info p{
+    margin-top: -20px;
+    font-size: 14px;
 }
-
+ 
 #info img{
     display: flex;
     margin-top: 0;
